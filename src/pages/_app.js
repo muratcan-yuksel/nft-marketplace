@@ -10,13 +10,13 @@ export default function App({ Component, pageProps }) {
           <Link href="/">
             <p className="mr-6 text-pink-500">Home</p>
           </Link>
-          <Link href="/create-item">
+          <Link href="/createItem">
             <p className="mr-6 text-pink-500">Sell Digital Asset</p>
           </Link>
-          <Link href="/my-assets">
+          <Link href="/myAssets">
             <p className="mr-6 text-pink-500">My Digital Assets</p>
           </Link>
-          <Link href="/creator-dashboard">
+          <Link href="/dashboard">
             <p className="mr-6 text-pink-500">Creator Dashboard</p>
           </Link>
         </div>

@@ -17,6 +17,7 @@ module.exports = {
     mumbai: {
       url: process.env.POKT_MUMBAI_URL,
       accounts: [PRIVATE_KEY],
+      gasPrice: 2000000000,
     },
   },
 };
